@@ -1,0 +1,30 @@
+{
+  "name": "claude-mcp-sentinel-marketplace",
+  "owner": {
+    "name": "ssai-group",
+    "url": "https://github.com/ssai-group"
+  },
+  "metadata": {
+    "description": "claude-mcp-sentinel: Security monitoring agent for Claude Skills and MCP servers by ssai-group",
+    "version": "2.0.0"
+  },
+  "plugins": [
+    {
+      "name": "claude-mcp-sentinel",
+      "source": {
+        "source": "github",
+        "repo": "ssai-group/claude-mcp-sentinel",
+        "ref": "main"
+      },
+      "description": "Security monitoring agent for Claude Skills and MCP servers. Blocks malicious tool calls in real-time via PreToolUse hook.",
+      "version": "2.0.0",
+      "author": {
+        "name": "ssai-group",
+        "url": "https://github.com/ssai-group"
+      },
+      "homepage": "https://github.com/ssai-group/claude-mcp-sentinel",
+      "repository": "https://github.com/ssai-group/claude-mcp-sentinel",
+      "license": "MIT"
+    }
+  ]
+}
