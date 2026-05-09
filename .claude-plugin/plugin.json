@@ -1,0 +1,13 @@
+{
+  "name": "claude-mcp-sentinel",
+  "version": "2.0.0",
+  "description": "Security monitoring agent for Claude Skills and MCP servers. Blocks malicious tool calls in real-time via PreToolUse hook — credential exfiltration, known-bad domains, reverse shells, curl|bash pipes — before they execute. Also runs static analysis against GitHub Advisory DB, vulnerablemcp.info, CVE feeds, and community alerts.",
+  "author": {
+    "name": "ssai-group",
+    "url": "https://github.com/ssai-group"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/ssai-group/claude-mcp-sentinel",
+  "repository": "https://github.com/ssai-group/claude-mcp-sentinel",
+  "keywords": ["security", "mcp", "sentinel", "monitor", "protection", "skills", "audit", "cve"]
+}
